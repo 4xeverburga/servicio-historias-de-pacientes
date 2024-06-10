@@ -1,0 +1,18 @@
+{
+	"sintomas_extraidos": [
+			{
+				"descripcion": "Fiebre",
+				"cita_textual": "tuve fiebre en la mañana"
+			},
+			{
+				"descripcion": "Malestar general",
+				"cita_textual": "sentía incomodidad en todo el cuerpo"
+			}
+	],
+	"eventos_en_la_historia": [
+		{
+			"descripcion": "Durante la mañana estuve en la lluvia y me mojé",
+			"cita_textual": "me mojé en la lluvia en la mañana volviendo de la tienda"
+		}
+	]
+}

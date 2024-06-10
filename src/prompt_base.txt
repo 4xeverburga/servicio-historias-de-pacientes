@@ -1,0 +1,69 @@
+Historia de Paciente:
+Desde que me desperte he tenido fiebre, escalofríos y dolor de cabeza. 
+No he hecho nada inusual ayer. Salí a caminar con mis amigos, de compras, mis tareas cotidianas y a dormir. Sin embargo ahora que me despierto estoy bastante cansada y tengo los síntomas que te mencionaba antes.
+Pronto haré una visita a una clínica. De momento no estoy tomando nada. 
+
+Se te pide lo siguiente:
+- Una lista de síntomas extraídos de la historia del paciente. 
+- Una lista de eventos que hizo o le sucedieron al paciente.
+El formato es un json con los campos siguientes:
+{
+	"sintomas_extraidos": [
+		{
+			"descripcion": "
+				"cita_textual": ""
+			},
+			{
+				"descripcion": "",
+				"cita_textual": ""
+			}
+	],
+	"eventos_en_la_historia": [
+		{
+			"descripcion": "",
+			"cita_textual": ""
+		}
+	]
+}
+Aquí tienes la información de la historia del paciente en formato JSON:
+{
+    "sintomas_extraidos": [
+        {
+            "descripcion": "fiebre",
+            "cita_textual": "Desde que me desperté he tenido fiebre"
+        },
+        {
+            "descripcion": "escalofríos",
+            "cita_textual": "Desde que me desperté he tenido... escalofríos"
+        },
+        {
+            "descripcion": "dolor de cabeza",
+            "cita_textual": "Desde que me desperté he tenido... dolor de cabeza"
+        },
+        {
+            "descripcion": "cansancio",
+            "cita_textual": "Ahora que me despierto estoy bastante cansada"
+        }
+    ],
+    "eventos_en_la_historia": [
+        {
+            "descripcion": "salió a caminar con amigos",
+            "cita_textual": "Salí a caminar con mis amigos"
+        },
+        {
+            "descripcion": "fue de compras",
+            "cita_textual": "Fui de compras"
+        },
+        {
+            "descripcion": "realizó tareas cotidianas",
+            "cita_textual": "Mis tareas cotidianas"
+        },
+        {
+            "descripcion": "se fue a dormir",
+            "cita_textual": "A dormir"
+        }
+    ]
+}
+
+
+
