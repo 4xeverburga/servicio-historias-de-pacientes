@@ -1,0 +1,23 @@
+
+Se te pide lo siguiente:
+- Una lista de síntomas extraídos de la historia del paciente. 
+- Una lista de eventos que hizo o le sucedieron al paciente.
+El formato es un json con los campos siguientes:
+{
+	"sintomas_extraidos": [
+		{
+			"descripcion": "
+				"cita_textual": ""
+			},
+			{
+				"descripcion": "",
+				"cita_textual": ""
+			}
+	],
+	"eventos_en_la_historia": [
+		{
+			"descripcion": "",
+			"cita_textual": ""
+		}
+	]
+}
