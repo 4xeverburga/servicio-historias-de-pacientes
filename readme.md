@@ -1,11 +1,11 @@
-#Input:
+# Input:
 Historia de paciente que es recopilada a traves de voz en la app.
 Ocurre antes de que el usuario vaya a algun centro de prestacion de servicios medicos.
 
-#Output
+# Output
 Se devuelve una lista de sintomas y de eventos extraidos de la historia del paciente.
 
-#Proceso
+# Proceso
 Input->main.extraer_datos()
 ->src.construir_prompt()
 ->src.extractor()
