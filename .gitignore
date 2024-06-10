@@ -1,3 +1,7 @@
 .venv
 .env
+<<<<<<< HEAD
 entorno
+=======
+__pycache__/
+>>>>>>> 8f37ff2216f884e2579560609e80236ca54d5142

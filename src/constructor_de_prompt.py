@@ -7,7 +7,11 @@ import logging
 
 def constructor_de_prompt(historia_de_paciente):
 	# se define el prompt
-	prompt = "Historia de Paciente: " + historia_de_paciente
+	prompt_base = ''
+	with open('src/prompt_base.txt','r',encoding='utf-8') as file:
+		prompt_base = file.read()
+
+	prompt = prompt_base + "\nHistoria de Paciente: " + historia_de_paciente
 	# se agrega las preguntas de extraccion
 	# importar form prompt_tail.txt
 	prompt_tail = ''
