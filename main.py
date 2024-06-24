@@ -26,5 +26,3 @@ if __name__ == '__main__':
 	with open('./in/input_test.json', 'r') as f:
 		json_input = json.load(f)
 	# out the res
-	res = test_main(json_input)
-	
