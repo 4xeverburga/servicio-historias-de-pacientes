@@ -1,1 +1,26 @@
-{"sintomas_extraidos": [{"descripcion": "dolor de cabeza", "cita_textual": "Me he sentido muy mal, con mucho dolor de cabeza"}, {"descripcion": "fiebre", "cita_textual": "Me he sentido muy mal, con... fiebre"}, {"descripcion": "debilidad", "cita_textual": "Me siento muy d\u00e9bil"}, {"descripcion": "falta de energ\u00eda", "cita_textual": "No tengo ganas de hacer nada"}], "eventos_en_la_historia": [{"descripcion": "falt\u00f3 al trabajo", "cita_textual": "He tenido que faltar al trabajo"}, {"descripcion": "no pudo hacer nada", "cita_textual": "No he podido hacer nada"}]}
+{
+	"sintomas_extraidos": [
+		{
+			"descripcion": "dolor de cabeza",
+			"cita_textual": "Me he sentido muy mal, con mucho dolor de cabeza"
+		},
+		{
+			"descripcion": "fiebre",
+			"cita_textual": "Me he sentido muy mal, con... fiebre"
+		},
+		{
+			"descripcion": "debilidad",
+			"cita_textual": "Me siento muy d\u00e9bil"
+		}
+	],
+	"eventos_en_la_historia": [
+		{
+			"descripcion": "falt\u00f3 al trabajo",
+			"cita_textual": "He tenido que faltar al trabajo"
+		},
+		{
+			"descripcion": "no pudo hacer nada",
+			"cita_textual": "No he podido hacer nada"
+		}
+	]
+}
